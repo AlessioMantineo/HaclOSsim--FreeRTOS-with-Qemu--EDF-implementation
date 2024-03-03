@@ -3,10 +3,7 @@
 + The **FreeRTOS/Source** directory contains the FreeRTOS source code, and contains
   its own readme file.
 
-+ The **FreeRTOS/Demo** directory contains a demo application for every official
-FreeRTOS port, and contains its own readme file.
-
-+ The **FreeRTOS/Test** directory contains the tests performed on common code and the portable layer code, and contains its own readme file.
++ The **FreeRTOS/Demo** directory contains a Customised demo application.
 
 See [FreeRTOS/SourceOrganization](http://www.freertos.org/a00017.html) for full details of the directory structure and information on locating the files you require.
 

@@ -23,7 +23,7 @@ For execute our custom demos follow this commands:
 5. Now you can follow the spefic steps for compiling and executing the project on your choice system.
 
 
-# 6 | Enhancing Learning Through Practical Scenarios: Applying Simulator and OS Concepts
+# 2 | Enhancing Learning Through Practical Scenarios: Applying Simulator and OS Concepts
 
 For the part related to developing practical examples/exercises to demonstrate the functionality of the
 simulator/operating system in alignment with the topics studied in class, we have chosen to create scenarios
@@ -40,7 +40,7 @@ translate into real-world solutions for real-world situations. This will provide
 and practical understanding of the concepts, preparing us to successfully utilize these skills in real-life
 contexts or future projects.
 
-## 6.1 | Resource Access Control in a Manufacturing Plant:
+## 2.1 | Resource Access Control in a Manufacturing Plant:
 
 __Scenario Overview__ 
 
@@ -54,7 +54,7 @@ __System Components__
 - Resource: Represents the robotic arm utilized for assembly tasks.
 - FreeRTOS: Embedded real-time operating system facilitating task management.
 
-## 6.1.1 | Manage the access of various assembly task to the robotic arm through taskExample1:
+## 2.1.1 | Manage the access of various assembly task to the robotic arm through taskExample1:
 
 Let’s understand together all the implementation steps and the use case flow of this example.
 
@@ -86,7 +86,7 @@ Let’s understand together all the implementation steps and the use case flow o
 
 
 
-## 6.2 | Data Management in Environmental Monitoring: FreeRTOS UseCase
+## 2.2 | Data Management in Environmental Monitoring: FreeRTOS UseCase
 
 __Scenario__: Database Access Management in an Environmental Monitoring System
 
@@ -125,11 +125,11 @@ priorities.
 
 
 
-# 7 | FreeRTOS customization 
+# 3 | FreeRTOS customization 
 
-## 7.1 | implementation of Earliest Deadline First (EDF) scheduler
+## 3.1 | implementation of Earliest Deadline First (EDF) scheduler
 
-### 7.1.1 | EDF dynamic scheduling algorithm
+### 3.1.1 | EDF dynamic scheduling algorithm
 
 The EDF algorithm for process scheduling is a dynamic priority scheduling algorithm that is used inreal-time systems. In a dynamic priority scheduler, the tasks are executed in the order determined by their priority which is computed at run-time, also in this type of scheduler, as the name suggest, the
 priority assignment is dynamic, the same task may have different priorities at different time. In the EDF,the priorities are assigned to the tasks according to their absolute deadlines, and the task with the earliest deadline for execution have the highest priority.
@@ -170,7 +170,7 @@ The implementation details of the proposed Earliest Deadline First (EDF) schedul
     correctly updated based on the new Ready List.
 
 
-### 7.2 | implementation of floatToChar
+### 3.2 | implementation of floatToChar
 
 The provided implementation, addresses the issue of printing float values from the terminal in C. It
 introduces a function named floatToChar, which converts a floating-point number to a string.

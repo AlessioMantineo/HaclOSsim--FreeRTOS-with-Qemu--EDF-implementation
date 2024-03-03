@@ -1,4 +1,4 @@
-# group10
+# EDF implementation on FreeRTOs and examples with synchronization functions (Semaphore and Event Group)
 
 # 1 | HaclOSsim
 
